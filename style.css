@@ -1,0 +1,111 @@
+body {
+    font-family: "Monterrat", serif;
+    font-optical-sizing: auto;
+    background-color: #E8D7BA;
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+    
+}
+
+.equal-width {
+    width: 250px;
+}
+h1 {
+    text-align: center;
+    color: rgba(201, 5, 5, 0.677);
+    font-size: 80px;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Monterrat", serif;
+    color: rgba(168, 18, 1, 0.867);
+}
+
+h3 {
+    text-align: center;
+    font-style: italic;
+}
+
+.glyph {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    list-style: none;
+}
+
+.container {
+    display:flex;
+    width: 50%;
+    margin: auto;
+}
+
+
+
+.red {
+    color:#ec662c;
+    margin: 25px;
+    display: block;
+}
+
+.green {
+    color: #1c682e;
+    margin: 55px;
+    display: block;
+}
+
+.blue {
+    color: #563594;
+    margin: 45px;
+    display: block;
+}
+
+
+
+.image, .cheese {
+    width: 30px; /* Adjust size as needed */
+    height: auto;
+    margin-left: 10px; /* Space between text and image */
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#init {
+    text-align: center;
+    font-style: normal;
+}
+
+#super {
+    text-align: center;
+    font-weight: bold;
+}
+
+#choice {
+    font-style: italic;
+    text-align: center;
+}
+
+h6 {
+    font-style: italic;
+}
+
+.imagecontainer{
+    display: flex;
+    justify-content: center;
+    height: 10%;
+
+}
